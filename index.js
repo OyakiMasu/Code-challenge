@@ -48,11 +48,12 @@ function speedDetectorSystem(speed){
      }else if(speed>70){
         let points = (speed-70)/5;
         console.log(points)
-     
+          if(points>12){
+            console.log("License suspended") 
        
         }
         
 
-     
+     }
 speedDetectorSystem()
 }
