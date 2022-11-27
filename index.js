@@ -5,6 +5,7 @@ const gradingSystem=function (){
 if(marks <0 && marks >100){
     console.log("This is not between 0-100")
 }
+//The condition for receiving the numbers that are in between the range
 else if(marks >=0 && marks <=100){
    
     //The condition for receiving the grade A
