@@ -42,7 +42,6 @@ else if(marks >=0 && marks <=100){
 //The function for the speed detector system
 let speed;
 function speedDetectorSystem(speed){
-
     if(speed < 70){
        return'Ok'
      }else if(speed>70){
@@ -50,7 +49,6 @@ function speedDetectorSystem(speed){
         console.log(points)
           if(points>12){
             console.log("License suspended") 
-       
         }
         
 
