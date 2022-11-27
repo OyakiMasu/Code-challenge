@@ -1,6 +1,7 @@
+
 //The function gradingSystem
 const gradingSystem=function (){
-    let marks = prompt('Write the marks between 0-100')
+    let marks = prompt ('Write the marks between 0-100')
 //The condition for not receiving numbers that are not between the range    
 if(marks <0 && marks >100){
     console.log("This is not between 0-100")
@@ -36,9 +37,13 @@ else if(marks >=0 && marks <=100){
     }
  
     }
-    
-    
+    gradingSystem()
 
-
-gradingSystem()
-
+//The function for the speed detector system
+let speed;
+function speedDetectorSystem(speed){
+    if(speed < 70){
+    return'Ok'
+    }
+}
+speedDetectorSystem();
