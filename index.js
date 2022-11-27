@@ -1,6 +1,12 @@
 //The function gradingSystem
 const gradingSystem=function (){
     let marks = prompt('Write the marks between 0-100')
+//The condition for not receiving numbers that are not between the range    
+if(marks <0 && marks >100){
+    console.log("This is not between 0-100")
+}
+else if(marks >=0 && marks <=100){
+   
     //The condition for receiving the grade A
         if(marks >= 80){
         grade = 'A'
@@ -22,7 +28,10 @@ const gradingSystem=function (){
         grade = 'E'
         console.log('This is the grade you got ' + grade);
        }       
-    
+    } 
+    else{
+        console.log('This is not between 0-100')
+    }
  
     }
     
