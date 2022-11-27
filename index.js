@@ -42,8 +42,17 @@ else if(marks >=0 && marks <=100){
 //The function for the speed detector system
 let speed;
 function speedDetectorSystem(speed){
+
     if(speed < 70){
-    return'Ok'
-    }
+       return'Ok'
+     }else if(speed>70){
+        let points = (speed-70)/5;
+        console.log(points)
+     
+       
+        }
+        
+
+     
+speedDetectorSystem()
 }
-speedDetectorSystem();
