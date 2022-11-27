@@ -28,7 +28,8 @@ else if(marks >=0 && marks <=100){
        }else {
         grade = 'E'
         console.log('This is the grade you got ' + grade);
-       }       
+       }
+    //The condition for not receiving any other stuff except numbers between 0-100          
     } 
     else{
         console.log('This is not between 0-100')
