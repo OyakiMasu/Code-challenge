@@ -13,4 +13,4 @@ function speedDetectorSystem(speed){
         }
      }
 }
-
+//This code challenge is tested in the conosle of the browser
